@@ -1,0 +1,7 @@
+a <- c(2,4,3,8,5)
+b <- c(3,4,7,6,9)
+plot(a,b)
+plot(a,b, main = "My Scatterplot")
+plot(a,b,main = "My Scatterplot", xlab = "Pringles Eatten", ylab = "Happiness")
+plot(a,b,main = "My Scatterplot", xlab = "Pringles Eatten", ylab = "Happiness")
+abline(lm(b~a))
